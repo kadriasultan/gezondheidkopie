@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+<style>
+  /* Reset voor body, header, en footer tags */
+body,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header-stijlen */
+header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Contactdetails-stijlen */
+.contact-details {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #085284;
+}
+
+/* Footer-stijlen */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+}
+
+input[type="button"] {
+  padding: 8px 16px;
+  border: none;
+  background-color: #060606;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #2980b9;
+}
+header {
+      background-color: #333; /* Kleur voor de header */
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    p{
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 150px; /* Breedte van het logo */
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px; /* Ruimte tussen de menu-items */
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+</style>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="index2.html">Bewusteten</a></li>
+        <li><a href="index3.html">voeding</a></li>
+        <li><a href="index4.html">lichaam</a></li>
+        <li><a href="index5.html">Contact</a></li>
+
+      </ul>
+      
+    </nav>
+  </header>
+  <div>
+    <h1>Contact</h1>
+    <p>Voor meer informatie, neem contact met ons op.</p>
+  </div>
+
+  <div class="contact-details">
+    <p><a href="https://gezondeten.com/">www.gezondeten.com</a></p>
+    <p>Telefoonnummer: 0658251726</p>
+  </div>
+
+  <footer>
+    <input type="button" value="Go back!" onclick="history.back()">
+  </footer>
+</body>
+</html>
